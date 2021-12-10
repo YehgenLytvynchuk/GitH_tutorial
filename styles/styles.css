@@ -1,0 +1,301 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* about styles */
+
+.about {
+    margin-bottom: 40px;
+}
+
+/* project styles */
+
+.projects {
+    margin-bottom: 50px;
+    /* margin: 100px 90px 300px 60px; */
+}
+
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.projct_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.proj_item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.projct,
+.projct_link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #595959;
+}
+
+.projct_link {
+    margin-left: 10px;
+}
+
+.projckt_bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-bottom: 10px;
+
+    color: #000000;
+}
+
+.organization {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FB6D3A;
+}
+
+.data_work {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    color: #A8A8A8;
+}
+
+.line {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000;
+}
+
+.work_list {
+    padding: 0%;
+    margin-left: 15px;
+}
+
+.work_list_item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+
+        width: 550px;
+}
+
+
+
+
+.work {
+    margin-bottom: 45px;
+}
+
+.education_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+
+    margin-bottom: 10px;
+}
+
+.education_place {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FB6D3A;
+
+    margin-bottom: 10px;
+}
+
+.profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+
+    margin-bottom: 10px;
+
+}
+
+.dada_education {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #A8A8A8
+}
+
+
+/* sidebar-styles */
+
+
+.sidebar {
+    background-color: #1E2939;
+    padding-top: 40px;
+    width: 370px;
+}
+
+/* main-content */
+
+.main-content {
+    border-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+
+.about_position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color:   #000;
+
+    margin-bottom: 20px;
+}
+
+.about_us_name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color:   #000;
+
+    margin-bottom: 25px;
+}
+
+.about_descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color:   #000;
+
+    width: 400px;
+
+
+}
+
+.us_photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+.sid_title {
+    color: #FFFFFF;
+    font-style: normal;
+    ont-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.cont_tipe {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.contacts,
+.th_skils,
+.sft_skils {
+    margin-left: 40px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.cont_link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.th_skils_ul,
+.sft_skils_ul {
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 17px;
+}
+
+.tch_skils_item,
+.sft_skils_item {
+    color: #FB6D3A;
+}
+
+.th_skils_ul_text,
+.sft_skils_ul_text {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.th_skils {
+    margin-bottom: 45px;
+}
